@@ -7,7 +7,7 @@ programa
 		escreva("quantos metros quadrados voce vai pintar? ")
 		leia(M2)
 		litros = M2/3 + M2%3
-		latas = 18/litros + 1
+		latas = litros/18 + 1
 		preco = latas * 480
 		escreva("o valor das tintas será ", preco)
 		
